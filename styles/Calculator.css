@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box
+}
+
+.Calculator {
+    width: 400px ;
+    background-color: black;
+    color:white;
+    border-style: inset;
+    text-align: center
+}
+.resultScreen {
+    text-align:right;
+    padding:20px 5px;
+    font-size: 40px;
+    color:white;
+}
+
+.buttonsRow {
+    display:flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom:0.5%;
+}
+.button {
+    background-color: #d8d9db;
+    color: black;
+    height: 100px;
+    width: 24.5%;
+    border: none;
+    border-radius: 0;
+    font-size: 40px;
+    cursor: pointer;
+    box-shadow: 0 9px #666
+}
+.button:last-of-type {
+    background-color: #DF974C;
+}
+.button:hover{
+    background-color:#e7eaee;
+}
+.button:last-of-type:hover {
+    background-color: #DF974C;
+}
+.button:active{
+    background-color: #dbe4f5be;
+    box-shadow: 0 5px #666;
+    transform: translateY(5px);
+}
+.Double {
+    width:50%;
+}
+.triple {
+    width:75%;
+}
