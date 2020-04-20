@@ -3,17 +3,21 @@
 }
 
 .Calculator {
+    display:block;
     width: 400px ;
     background-color: black;
     color:white;
     border-style: inset;
-    text-align: center
+    margin:auto;
+    border:0,5px solid black;
+    padding:2px;
 }
 .resultScreen {
     text-align:right;
     padding:20px 5px;
     font-size: 40px;
     color:white;
+    border-bottom:2px solid white;
 }
 
 .buttonsRow {
@@ -31,7 +35,7 @@
     border-radius: 0;
     font-size: 40px;
     cursor: pointer;
-    box-shadow: 0 9px #666
+    box-shadow: 0 2px #666
 }
 .button:last-of-type {
     background-color: #DF974C;
@@ -40,13 +44,21 @@
     background-color:#e7eaee;
 }
 .button:last-of-type:hover {
-    background-color: #DF974C;
+    background-color: rgb(230, 153, 71);
 }
 .button:active{
     background-color: #dbe4f5be;
-    box-shadow: 0 5px #666;
+    box-shadow: 0 1px #666;
     transform: translateY(5px);
+    outline:none;
+    border:none;
 }
+
+.button:last-of-type:active {
+    background-color: rgb(172, 110, 44);
+}
+button:focus {outline:0;}
+
 .Double {
     width:50%;
 }
