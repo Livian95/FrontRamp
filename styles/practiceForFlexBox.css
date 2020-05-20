@@ -1,56 +1,74 @@
 body {
-	font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     border: 1px dotted red;
-    display:flex;
+    display: flex;
 }
+
 li {
-	border: 1px solid #999;
-	margin: 0.5em;
-	padding: 0.5em;
+    border: 1px solid #999;
+    margin: 0.5em;
+    padding: 0.5em;
 }
+
 .Boxes {
-    color:black;
+    color: black;
     padding: 4px;
-    display:flex;
-    flex-flow:row wrap ;
+    display: flex;
+    flex-flow: row wrap;
     border: 5px solid black;
-    margin:5px;
+    margin: 2px;
+    justify-content: center;
 }
+
 .box1 {
-    background:yellow;
-    margin-right:4px;
-    flex:0 0 20%;
+    background: yellow;
+    margin:1% 1%;
+    flex: 0 0 15%;
 }
+
 .box2 {
-    background:red;
-    margin-right:4px;
-    flex:0 0 20%;
-
+    background: red;
+    margin:1% 1%;
+    flex: 0 0 15%;
 
 }
+
 .box3 {
-    background:wheat;
-    margin-right:4px;
-    flex:0 0 20%;
-
-
+    background: wheat;
+    margin:1% 1%;
+    flex: 0 0 15%;
 }
+
 .box4 {
-    background:blue;
-    margin-right:4px;
-    flex:0 0 20%;
-
-
+    background: blue;
+    margin-right: 4px
 }
+
 .box5 {
-    background:blueviolet;
-    margin-right:4px;
-    flex:0 0 20%;
+    background: blueviolet;
+    margin-right: 4px
+}
 
+@media only screen and (max-width: 600px) {
+    .box1 {
+        background-color: lightblue;
+        flex:0 0 44%
 
+    }
+
+    .box2 {
+        background-color: limegreen;
+        flex:0 0 44%
+    }
+
+    .box3 {
+        background-color: green;
+        flex: 0 0 92%;
+    }
 }
