@@ -35,7 +35,8 @@ p {
     margin: 7px;
     padding: 5px
 }
-
+/* // margin top bottom / left right ( 2 valori )
+4 valori -> clockwisse */
 .article-title {
     font-size: 30px;
     text-align: center;

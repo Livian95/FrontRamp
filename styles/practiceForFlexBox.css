@@ -1,0 +1,56 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+    border: 1px dotted red;
+    display:flex;
+}
+li {
+	border: 1px solid #999;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+.Boxes {
+    color:black;
+    padding: 4px;
+    display:flex;
+    flex-flow:row wrap ;
+    border: 5px solid black;
+    margin:5px;
+}
+.box1 {
+    background:yellow;
+    margin-right:4px;
+    flex:0 0 20%;
+}
+.box2 {
+    background:red;
+    margin-right:4px;
+    flex:0 0 20%;
+
+
+}
+.box3 {
+    background:wheat;
+    margin-right:4px;
+    flex:0 0 20%;
+
+
+}
+.box4 {
+    background:blue;
+    margin-right:4px;
+    flex:0 0 20%;
+
+
+}
+.box5 {
+    background:blueviolet;
+    margin-right:4px;
+    flex:0 0 20%;
+
+
+}
