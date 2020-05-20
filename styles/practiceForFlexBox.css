@@ -15,7 +15,21 @@ li {
     margin: 0.5em;
     padding: 0.5em;
 }
-
+.BoxesALEX {
+    display:flex;
+    flex-wrap: wrap;
+    padding: 3px;
+    border: 5px solid black;
+    margin: 2px;
+    align-items:center;
+    justify-content: center;
+}
+.box {
+    flex :1 1 30%;
+    background-color: maroon;
+    height:100%;
+    margin: 1% 1%;
+}
 .Boxes {
     color: black;
     padding: 4px;
@@ -70,5 +84,9 @@ li {
     .box3 {
         background-color: green;
         flex: 0 0 92%;
+        text-align: center;
+    }
+    .box {
+        flex: 1 0 48%;
     }
 }
